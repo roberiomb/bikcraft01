@@ -8,15 +8,16 @@ body {
   padding: 40px;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.introducao-img img {
   border-radius: 5px;
   object-fit: cover;
+  height: 100%;
+  max-width: 100%;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .menu {
@@ -87,9 +88,9 @@ a {
 
 @media (width <= 900px) {
   body {
+    margin-top: 25px;
     gap: 10px;
     padding: 10px;
-
   }
   .introducao {
     padding: 5px;
@@ -110,7 +111,8 @@ a {
     padding: 15px;
   }
   .subtitulo {
-    word-break: break-all;
+    height: 50px;
+    
   }
 }
 
@@ -159,4 +161,10 @@ a {
   width: 100%;
   text-align: center;
   padding: 40px;
+}
+
+@media (width <= 1000px) {
+  .subtitulo {
+    text-align: center;
+  }
 }
