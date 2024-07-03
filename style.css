@@ -163,8 +163,4 @@ a {
   padding: 40px;
 }
 
-@media (width <= 1000px) {
-  .subtitulo {
-    text-align: center;
-  }
-}
+
