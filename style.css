@@ -4,8 +4,8 @@ body {
   background: #f7f7f7;
   display: grid;
   justify-items: center;
-  gap: 60px;
-  padding: 60px;
+  gap: 40px;
+  padding: 40px;
 }
 
 img {
@@ -32,7 +32,6 @@ a {
   display: inline-block;
   position: absolute;
   margin-top: -15px;
-
 }
 
 .menu a {
@@ -88,8 +87,18 @@ a {
 
 @media (width <= 900px) {
   body {
-    gap: 30px;
+    gap: 10px;
+    padding: 10px;
+
   }
+  .introducao {
+    padding: 5px;
+  }
+
+  .detalhe {
+    display: none;
+  }
+
   .conteudo {
     grid-template-columns: 1fr;
   }
@@ -103,8 +112,6 @@ a {
   .subtitulo {
     word-break: break-all;
   }
-
-
 }
 
 .subtitulo {
@@ -125,27 +132,22 @@ a {
   padding: 20px;
 }
 
-
 .vantagens-item h3 {
   max-height: 8px;
 }
 
 .vantagens-item p {
   grid-column: 2;
-  
 }
 
 .vantagens-item img {
   margin-top: 16px;
   margin-right: 16px;
   margin-left: 16px;
-
-
 }
 
 .vantagens-item:nth-child(2) {
   background: #e2e2e2;
-
 }
 
 .vantagens-item:hover {
